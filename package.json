@@ -11,6 +11,7 @@
     "eslint": "npx eslint .",
     "prettier": "npx prettier .",
     "build": "tsc -p tsconfig.json",
+    "mocha": "npx mocha",
     "test": "tsc -p tsconfig.json && npx mocha",
     "typedoc": "npx typedoc src/*"
   },
