@@ -13,7 +13,8 @@
     "build": "tsc -p tsconfig.json",
     "mocha": "npx mocha",
     "test": "tsc -p tsconfig.json && npx mocha",
-    "typedoc": "npx typedoc src/*"
+    "typedoc": "npx typedoc src/*",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
